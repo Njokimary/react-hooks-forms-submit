@@ -20,7 +20,7 @@ element:
 
 ```jsx
 // src/components/Form.js
-return (
+return ( 
   <form onSubmit={handleSubmit}>
     <input type="text" onChange={handleFirstNameChange} value={firstName} />
     <input type="text" onChange={handleLastNameChange} value={lastName} />
